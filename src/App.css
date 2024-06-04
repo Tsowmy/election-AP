@@ -1,0 +1,50 @@
+.Heading{
+  color:blue;
+  text-align:center;
+  text-decoration: underline;
+  text-decoration-color:green;
+}
+.App {
+  text-align: center;
+}
+.container{
+ 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap:8px;
+  padding:10px;
+
+  display:flex;
+  align-items: center;
+  justify-content:space-around;
+  text-align: center;
+  color:white;
+  border-radius: 15px;
+  
+  
+}
+
+.number{
+  width:150px;
+  height:40px;
+  border-radius: 20px;
+  color:white;
+  text-align: center;
+  padding:15px;
+  
+}
+ 
+  
+
+.color4{
+  background-color: blue;
+}
+.color1{
+  background-color: blueviolet;
+}
+.color2{
+  background-color: rgb(231, 101, 53);
+}
+.color3{
+  background-color: rgb(170, 18, 18);
+}
